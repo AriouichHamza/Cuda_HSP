@@ -22,24 +22,6 @@ void imgColorPrint(int height, int width, int ***img){
   }
 }
 
-void MatrixInit(float *M, int n, int p){
-  for (int i = 0; i < n; i++) {
-    for (int j = 0; j < p; j++) {
-      M[i * p + j] = ((float)rand() / RAND_MAX) * 2 - 1;
-    }
-  }
-}
-
-void MatrixPrint(float *M, int n, int p){
-  for ( int i = 0; i < n; i++){
-    
-    
-  }
-}
-for (int j = 0; j < p; j++) {
-  printf("%f ", M[i * p + j]);
-}
-printf("\n");
 
 
 int main() {
