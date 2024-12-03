@@ -15,7 +15,8 @@ void MatrixInit(float *M, int n, int p) {
 
 void MatrixAdd(float *M1, float *M2, float *Mout, int n, int p) {
     for (int i = 0; i < n * p; i++) {
-        Mout[i] = M1[i] + M2[i];
+        Mout[.idea
+venvi] = M1[i] + M2[i];
     }
 }
 
