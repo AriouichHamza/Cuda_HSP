@@ -42,7 +42,7 @@ int main() {
   }
 
   //Open File
-  if((fptr = fopen("train-images.idx3-ubyte","rb")) == NULL){
+  if((fptr = fopen("/home/ariouich/Bureau/3A/HP/ressources pour le TP-20241129/Cuda_HSP/train-images.idx3-ubyte","rb")) == NULL){
     printf("Can't open file");
     exit(1);
   }
