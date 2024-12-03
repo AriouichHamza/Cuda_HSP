@@ -16,11 +16,16 @@ void MatrixInit(float *M, int n, int p) {
 void MatrixAdd(float *M1, float *M2, float *Mout, int n, int p) {
     for (int i = 0; i < n * p; i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Mout[.idea
 venvi] = M1[i] + M2[i];
 =======
         Mout[i] = M1[i] + M2[i];
 >>>>>>> ade7dd2 (c)
+=======
+        Mout[.idea
+venvi] = M1[i] + M2[i];
+>>>>>>> 484de24 (clean)
     }
 }
 
